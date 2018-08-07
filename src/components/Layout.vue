@@ -10,7 +10,7 @@
 			  </div>
 		  </div>
 		  <div class="left">
-			  标签区域
+			  <label-wrapper></label-wrapper>
 		  </div>
 		  <div class="right">
 			  编辑区域
@@ -20,8 +20,12 @@
 </template>
 
 <script>
+import labelWrapper from './LabelWrapper'
 export default {
-  name: 'layout'
+  name: 'layout',
+  components:{
+	  labelWrapper
+  }
 }
 </script>
 
