@@ -6,7 +6,7 @@
 	  <div class="wrap">
 		  <div class="middle">
 			  <div class="middle-wrap">
-				  预览区域
+				  <preview-wrapper></preview-wrapper>
 			  </div>
 		  </div>
 		  <div class="left">
@@ -21,10 +21,13 @@
 
 <script>
 import labelWrapper from './LabelWrapper'
+import previewWrapper from './PreviewWrapper'
+
 export default {
   name: 'layout',
   components:{
-	  labelWrapper
+	  labelWrapper,
+	  previewWrapper
   }
 }
 </script>

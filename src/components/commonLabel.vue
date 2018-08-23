@@ -1,5 +1,5 @@
 <template>
-	<div class="label-item-wrapper" title="拖入模板设计区域" draggable="true" @dragStart="dragStart">
+	<div class="label-item-wrapper" title="拖入模板设计区域" draggable="true" @dragstart="dragStart">
 		<span class="label-text">{{name}}</span>
 	</div>
 </template>
